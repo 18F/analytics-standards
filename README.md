@@ -45,22 +45,10 @@ Provides a JavaScript file for US federal agencies to link or embed in their web
 
 The most current version of DAP GA code is:
 
-* [`Universal-Federated-Analytics.js`](Universal-Federated-Analytics.js) (full)
-* [`Universal-Federated-Analytics-Min.js`](Universal-Federated-Analytics-Min.js) (minified)
+* [`Universal-Federated-Analytics.js`](https://raw.githubusercontent.com/digital-analytics-program/gov-wide-code/master/Universal-Federated-Analytics.js) (full)
+* [`Universal-Federated-Analytics-Min.js`](https://raw.githubusercontent.com/digital-analytics-program/gov-wide-code/master/Universal-Federated-Analytics-Min.js) (minified)
 
-#### Central hosting
-
-The central URLs for the Digital Analytics Program JS snippet are:
-
-* `https://dap.digitalgov.gov/Universal-Federated-Analytics.js` (full)
-* `https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js` (minified)
-
-Agencies are encouraged to use the following HTML snippet to participate in the Digital Analytics Program:
-
-```html
-<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
-<script async id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"></script>
-```
+**Do not hot-link to the above files.** Download and self-host them in your application.
 
 ## api.data.gov
 
