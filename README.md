@@ -38,7 +38,8 @@ ga('send', 'pageview');
 ```
 
 ## Digital Analytics Program Snippet
-For more information about DAP visit thier [site](https://www.digitalgov.gov/services/dap/). Snippet information taken from [DAP Github page](https://github.com/digital-analytics-program/gov-wide-code).
+
+For more information about DAP, visit their [site](https://www.digitalgov.gov/services/dap/) and their [GitHub repository](https://github.com/digital-analytics-program/gov-wide-code).
 
 #### Digital Analytics Program government-wide code
 Provides a JavaScript file for US federal agencies to link or embed in their websites to participate in the Digital Analytics Program.
