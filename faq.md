@@ -1,15 +1,17 @@
-### What is the difference between 18F Google Analytics and the Digital Analytics Program?  
-...
+### What is the difference between 18F Google Analytics and the Digital Analytics Program?
+The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) provides government agencies services such as guidance, training, and web analytics tools. The DAP maintains a Google Analytics account, which collects data from over 300 federal websites. Government sites including 18F sites can be added to the DAP Google Analytics account via a code snippet.
 
-### Can I give access to a project's analytics to a client?  
+18F Google Analytics is an account only for 18F websites. Since 18F is the owner of the account it allows us to make special modifications not avaiable through the DAP. To add a new 18F site to our Google Anaytics account follow the [18F Snippet Standards for Website Analytics directions](https://github.com/18F/analytics-standards#18f-snippet-standards-for-website-analytics).
 
-Yes, please!  Not only can you, but you should!  
+### Can I give access to a project's analytics to a client?
 
-### How do I give access to a project's analytics to a client?  
+Yes, please!  Not only can you, but you should!
+
+### How do I give access to a project's analytics to a client?
 
  In order to grant them access, we need to know what email address they want to use. If it is not a gmail (or google apps) email address, then they need to first go to google.com/analytics and create an account there using their preferred email address.
 
-Then post in `#g-analytics` on Slack the email addresses of the client staff who you want to give access.  If you're not the project lead, make sure they are aware by cc'ing them in the slack post. 
+Then post in `#g-analytics` on Slack the email addresses of the client staff who you want to give access.  If you're not the project lead, make sure they are aware by cc'ing them in the slack post.
 
 They will be given `Collaborate` and `Read & Analyze` permissions specific only to their project and will receive an email notification.
 
