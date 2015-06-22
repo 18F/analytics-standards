@@ -1,7 +1,6 @@
-This project memorializes the standards that 18F sets for itself for implementing various forms of analytics, namely website analytics but also api analytics.  Every project that has a digital presence will integrate appropriate analytics to better learn what our users need and want.  This follows well-established best practices and equips the team to better deliver great product.
+This project memorializes the standards that 18F sets for itself for implementing various forms of analytics, namely website analytics but also api analytics. Every project that has a digital presence will integrate appropriate analytics to better learn what our users need and want. This follows well-established best practices and equips the team to better deliver great product.
 
-Furthermore, we feel that access to analytics data should be widely available to teammates, partners, and the public.  There are countless use cases where a fellow 18F-er might benefit from easy access to a project's website analytics and very few reasons to limit that access.  Along the same lines, we believe that we are better able to serve our agency partners when they have ready access to robust analytics for their project.
-
+Access to analytics data should be widely available to teammates, partners, and the public. There are countless use cases where a fellow 18F-er can benefit from easy access to a project's website analytics and very few reasons to limit that access. We are better able to serve our agency partners when they have ready access to robust analytics for their project.
 
 ## 18F Team Standards for Website Analytics
 
@@ -16,7 +15,9 @@ Once analytics has been set up, it's recommended to share read/collaborate acces
 ### 18F Account Snippet
 
 The purpose of the 18F tracker snippet is to simplify/centralize analytics tracking and provide everyone within the organization access to all 18F projects' data. Additionally the snippet contains a few modifications to meet specific privacy and security standards.
-Customizations
+
+**Customizations**
+
 * [Anonymize IP](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#anonymizeIp)
 * [Force SSL](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#forceSSL)
 
