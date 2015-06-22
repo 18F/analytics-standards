@@ -1,8 +1,5 @@
-
-
-1. What is the difference between 18F Google Analytics and the Digital Analytics Program?  
-2. ...
-
+### What is the difference between 18F Google Analytics and the Digital Analytics Program?  
+...
 
 ### Can I give access to a project's analytics to a client?  
 
