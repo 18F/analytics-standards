@@ -2,7 +2,7 @@
 
 The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) and 18F Google Analytics are different services with two distinct code snippets.
 
-##### [Digital Analytics Program](http://www.digitalgov.gov/services/dap/)
+##### Digital Analytics Program
 The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) is a shared service available to all federal agencies to provides website analytics. DAP both offers a fully functional analytics service to agencies but also integrates with a cross-government combined analytics dashboard.  Staff at participating agencies are able to access the full, government-wide data.
 
 Furthermore, the Digital Analytics Program offers government agencies services such as guidance, training, and web analytics tools.  Government sites including 18F sites can be added to the DAP Google Analytics account via a code snippet.
