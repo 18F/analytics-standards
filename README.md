@@ -38,7 +38,7 @@ ga('set', 'forceSSL', true);
 ga('send', 'pageview');
 ```
 
-## Digital Analytics Program Snippet
+### Digital Analytics Program Snippet
 
 For more information about DAP, visit their [site](https://www.digitalgov.gov/services/dap/) and their [GitHub repository](https://github.com/digital-analytics-program/gov-wide-code).
 
@@ -52,13 +52,15 @@ The most current version of DAP GA code is:
 
 **Do not hot-link to the above files.** Download and self-host them in your application.
 
-## api.data.gov
+## 18F Team Standards for API Analytics
 
-Each project that builds an API should ensure that it is tracking how the API is being used.  The easiest means for 18F to do this is by integrating its own [api.data.gov service](https://api.data.gov/).
+Where website analytics measures visitor traffic on a website, API analytics [measures how developers use a web service](https://pages.18f.gov/API-All-the-X/pages/api_analytics/).  18F manages a light but powerful tool to accomplish this task, [api.data.gov](https://api.data.gov/).    
 
-This ensures that system owners and stakeholders can monitor how the web service is being used, but it also provides further functionality.  Api.data.gov also provides the ability to offer API keys, set different rate limits, and to block abusive users.
+Each 18F project that builds an API should ensure that it is tracking how the API is being used.  The easiest means for 18F to do this is by [integrating the api.data.gov service](http://api.data.gov/about/#how-to-participate).
 
-To learn more, email `api.data.gov@gsa.gov`.
+This ensures that system owners and stakeholders can monitor how the web service is being used, but it also provides further functionality.  Api.data.gov also provides the ability to offer API keys, set different rate limits, and to block abusive users.  By integrating api.data.gov, the project not only gains its direct benefits but also gains the benefits of 18F further dogfooding it's own work.  
+
+To learn how to integrate api.data.gov into your project's API, ask in the #api channel in Slack or email `api.data.gov@gsa.gov`.  Integration is fast and easy, but it is better to begin this conversation during the planning and pre-production stages for everyone's convenience.  
 
 ## Processes
 
