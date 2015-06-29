@@ -63,15 +63,3 @@ Each 18F project that builds an API should ensure that it is tracking how the AP
 This ensures that system owners and stakeholders can monitor how the web service is being used, but it also provides further functionality.  Api.data.gov also provides the ability to offer API keys, set different rate limits, and to block abusive users.  By integrating api.data.gov, the project not only gains its direct benefits but also gains the benefits of 18F further dogfooding it's own work.  
 
 To learn how to integrate api.data.gov into your project's API, ask in the #api channel in Slack or email `api.data.gov@gsa.gov`.  Integration is fast and easy, but it is better to begin this conversation during the planning and pre-production stages for everyone's convenience.  
-
-## Processes
-
-_Hyperlink these bullet points to directions_
-
-* How to add the 18F GA to a project
-* How to gain access to the 18F GA data
-* How to add the DAP GA to a project
-* How to gain access to the DAP GA project
-* Add api.data.gov to an API
-* Administer my api.data.gov integration
-* Share access to the api.data.gov data.
