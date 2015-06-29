@@ -1,6 +1,6 @@
 ### What is the difference between 18F Google Analytics and the Digital Analytics Program (DAP)?
 
-The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) and 18F Google Analytics are different services with two distinct code snippets.
+The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) and 18F Google Analytics are different services with two distinct code snippets. The Analytics Guild strongly encourages participation in both services.
 
 ##### Digital Analytics Program
 The [Digital Analytics Program](http://www.digitalgov.gov/services/dap/) is a shared service available to all federal agencies to provides website analytics. DAP both offers a fully functional analytics service to agencies but also integrates with a cross-government combined analytics dashboard.  Staff at participating agencies are able to access the full, government-wide data.
