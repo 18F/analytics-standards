@@ -22,9 +22,11 @@ The purpose of the 18F tracker snippet is to simplify/centralize analytics track
 
 * [Anonymize IP](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#anonymizeIp)
 * [Force SSL](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference#forceSSL)
+* Upgrades the [protocol-relative URL](http://www.paulirish.com/2010/the-protocol-relative-url/) to an HTTPS URL when making the initial connection to `www.google-analytics.com`.
 
 #### UA Code
-Message us on [g-analytics slack channel](https://18f.slack.com/messages/g-analytics/) and the Analytics Guild will give you a UA code linked to an account, which all 18F members can access.
+
+Message us on the [#g-analytics slack channel](https://18f.slack.com/messages/g-analytics/) and the Analytics Guild will give you a UA code linked to an account, which all 18F members can access.
 
 
 #### JavaScript Code Snippet
@@ -45,6 +47,7 @@ ga('send', 'pageview');
 For more information about DAP, visit their [site](https://www.digitalgov.gov/services/dap/) and their [GitHub repository](https://github.com/digital-analytics-program/gov-wide-code).
 
 #### Digital Analytics Program government-wide code
+
 Provides a JavaScript file for US federal agencies to link or embed in their websites to participate in the Digital Analytics Program.
 
 The most current version of DAP GA code is:
