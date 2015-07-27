@@ -4,7 +4,7 @@ Access to analytics data should be widely available to teammates, partners, and 
 
 ## 18F Team Standards for Analytics
 
-Webpages should integrate both the 18F Google Analytics (GA) as well as the Digital Analytics Program (DAP).  
+Webpages should integrate both the 18F Google Analytics (GA) as well as the Digital Analytics Program (DAP).
 
 Every 18F team member should be given read/collaborate access to the 18F GA account in the first two weeks on the job.  At the same time, they should be informed of the process for gaining access to the DAP and GSA's GA account.
 
@@ -30,16 +30,25 @@ Message us on the [#g-analytics slack channel](https://18f.slack.com/messages/g-
 
 
 #### JavaScript Code Snippet
+
+To add the 18f snippet...
+
+* copy the code below
+* replace the `<<UA-CODE>>` with the ua-code that you got from the Analytics Guild
+* add to the bottom of page before the `</body>`
+
 ```javascript
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', '<<UA-CODE>>', 'auto');
-ga('set', 'anonymizeIp', true);
-ga('set', 'forceSSL', true);
-ga('send', 'pageview');
+  ga('create', '<<UA-CODE>>', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'forceSSL', true);
+  ga('send', 'pageview');
+</script>
 ```
 
 ### Digital Analytics Program Snippet
@@ -59,10 +68,10 @@ The most current version of DAP GA code is:
 
 ## 18F Team Standards for API Analytics
 
-Where website analytics measures visitor traffic on a website, API analytics [measures how developers use a web service](https://pages.18f.gov/API-All-the-X/pages/api_analytics/).  18F manages a light but powerful tool to accomplish this task, [api.data.gov](https://api.data.gov/).    
+Where website analytics measures visitor traffic on a website, API analytics [measures how developers use a web service](https://pages.18f.gov/API-All-the-X/pages/api_analytics/).  18F manages a light but powerful tool to accomplish this task, [api.data.gov](https://api.data.gov/).
 
 Each 18F project that builds an API should ensure that it is tracking how the API is being used.  The easiest means for 18F to do this is by [integrating the api.data.gov service](http://api.data.gov/about/#how-to-participate).
 
-This ensures that system owners and stakeholders can monitor how the web service is being used, but it also provides further functionality.  Api.data.gov also provides the ability to offer API keys, set different rate limits, and to block abusive users.  By integrating api.data.gov, the project not only gains its direct benefits but also gains the benefits of 18F further dogfooding it's own work.  
+This ensures that system owners and stakeholders can monitor how the web service is being used, but it also provides further functionality.  Api.data.gov also provides the ability to offer API keys, set different rate limits, and to block abusive users.  By integrating api.data.gov, the project not only gains its direct benefits but also gains the benefits of 18F further dogfooding it's own work.
 
-To learn how to integrate api.data.gov into your project's API, ask in the #api channel in Slack or email `api.data.gov@gsa.gov`.  Integration is fast and easy, but it is better to begin this conversation during the planning and pre-production stages for everyone's convenience.  
+To learn how to integrate api.data.gov into your project's API, ask in the #api channel in Slack or email `api.data.gov@gsa.gov`.  Integration is fast and easy, but it is better to begin this conversation during the planning and pre-production stages for everyone's convenience.
