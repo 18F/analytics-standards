@@ -55,16 +55,17 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 For more information about DAP, visit their [site](https://www.digitalgov.gov/services/dap/) and their [GitHub repository](https://github.com/digital-analytics-program/gov-wide-code).
 
-#### Digital Analytics Program government-wide code
+The Digital Analytics Program provides [secure, central hosting](https://www.digitalgov.gov/2015/08/14/secure-central-hosting-for-the-digital-analytics-program/) for its JavaScript snippet. 
 
-Provides a JavaScript file for U.S. federal agencies to link or embed in their websites to participate in the Digital Analytics Program.
+Place the following tag **at the bottom of your HTML**:
 
-The most current version of DAP GA code is:
+```html
+<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"
+id="_fed_an_ua_tag"></script>
+```
 
-* [`Universal-Federated-Analytics.js`](https://raw.githubusercontent.com/digital-analytics-program/gov-wide-code/master/Universal-Federated-Analytics.js) (full)
-* [`Universal-Federated-Analytics-Min.js`](https://raw.githubusercontent.com/digital-analytics-program/gov-wide-code/master/Universal-Federated-Analytics-Min.js) (minified)
+**Note:** The above `<script>` tag is **loaded synchronously**, so you should put it at the bottom of your HTML. DAP has an [outstanding bug affecting asynchronous usage](https://github.com/digital-analytics-program/gov-wide-code/pull/28). This bug should be fixed in a future version of the DAP -- in which case, at that time you may want to update your tag again to add the `async` attribute.
 
-**Do not hot-link to the above files.** Download and self-host them in your application.
 
 ## 18F team standards for API analytics
 
