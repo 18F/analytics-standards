@@ -35,7 +35,7 @@ To add the 18F snippet:
 
 * Copy the code below
 * Replace the `<<UA-CODE>>` with the ua-code that you got from the Analytics Guild
-* Add to the bottom of page before the `</body>`
+* Place it immediately before the closing `</head>` tag
 
 ```javascript
 <script>
