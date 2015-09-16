@@ -33,6 +33,9 @@ _Note that we are not currently in a position to grant access to Digital Analyti
 
 ### How do I get access to the government-wide DAP data?  
 
-Email [dap@gsa.gov](mailto:dap@gsa.gov) and say that you would like access to the DAP.  They will send back [this form](https://docs.google.com/forms/d/1BVcvBge74kaWpSkIaQ1x1sfAE3aa0YMnVe3kXuD8z9k/viewform) for you to fill out.  If you want to speed things up, you can fill out the form first, and tell them that you have done so when you email.  Once the DAP team has given you access, you will see a new link to 'Government-Wide Account` when you log into [Google Analytics](https://www.google.com/analytics) with your work email.  
+Email [dap@gsa.gov](mailto:dap@gsa.gov) and say that you would like access to the DAP.  They will send back [this form](https://docs.google.com/forms/d/1BVcvBge74kaWpSkIaQ1x1sfAE3aa0YMnVe3kXuD8z9k/viewform) for you to fill out. [For the question `Website(s) most interested in/aligned with`, simply put `18f.gsa.gov`.]  
+
+  
+If you want to speed things up, you can fill out the form first, and tell them that you have done so when you email.  Once the DAP team has given you access, you will see a new link to 'Government-Wide Account` when you log into [Google Analytics](https://www.google.com/analytics) with your work email.  
 
 
