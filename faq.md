@@ -16,7 +16,7 @@ Yes, please!  Not only can you, but you should!
 
 ### How do I give access to a project's analytics to a client?
 
- In order to grant them access, we need to know what email address they want to use. If it is not a gmail (or google apps) email address, then they need to first go to google.com/analytics and create an account there using their preferred email address.
+ In order to grant them access, we need to know what email address they want to use. If it is not a gmail (or google apps) email address, then they need to first go to google.com/analytics and create an account there using their preferred email address ([alternate link](https://accounts.google.com/SignUpWithoutGmail _)).
 
 Then post in `#g-analytics` on Slack the email addresses of the client staff who you want to give access.  If you're not the project lead, make sure they are aware by cc'ing them in the slack post.
 
