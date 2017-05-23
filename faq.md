@@ -36,6 +36,10 @@ _Note that we are not currently in a position to grant access to Digital Analyti
 Email [dap@support.digitalgov.gov](mailto:dap@support.digitalgov.gov) and say that you would like access to the DAP.  They will send back [this form](https://docs.google.com/forms/d/1BVcvBge74kaWpSkIaQ1x1sfAE3aa0YMnVe3kXuD8z9k/viewform) for you to fill out. [For the question `Website(s) most interested in/aligned with`, simply put `18f.gsa.gov`.]  
 
   
-If you want to speed things up, you can fill out the form first, and tell them that you have done so when you email.  Once the DAP team has given you access, you will see a new link to 'Government-Wide Account` when you log into [Google Analytics](https://www.google.com/analytics) with your work email.  
+If you want to speed things up, you can fill out the form first, and tell them that you have done so when you email.  Once the DAP team has given you access, you will see a new link to `Government-Wide Account` when you log into [Google Analytics](https://www.google.com/analytics) with your work email.  
 
+### We've completed a project and are transitioning it to the client to own from here on.  How do we hand off access and management of the 18F Google Anallytics to them?  
 
+Interestingly, there's no way to transfer a Google Analytics property from one account to another.  The client could remove the UA code associated with the 18F account and replace it with their own, but they would lose all historical data.  Instead of that, we should ask the client who on their team we should grant the 'Manage Users' permission for and request this change in the #g-analytics channel in Slack.  This will allow the client team to manage user access to their property for the indefinite future.  
+
+They may also want to think about adding a UA code from their own agency's Google Analytics account to begin collecting data and to allow them the complete functionality that is avialable to account owners, however we should advise them to keep in place the 18F account UA-code for the indefinite future alongside it.  
