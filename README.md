@@ -57,14 +57,12 @@ For more information about DAP, visit their [site](https://www.digitalgov.gov/se
 
 The Digital Analytics Program provides [secure, central hosting](https://www.digitalgov.gov/2015/08/14/secure-central-hosting-for-the-digital-analytics-program/) for its JavaScript snippet. 
 
-Place the following tag **at the bottom of your HTML**:
+Place the following tag **in the `<head>`, preferably right before the closing `</head>` tag**:
 
 ```html
-<script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"
+<script async src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"
 id="_fed_an_ua_tag"></script>
 ```
-
-**Note:** The above `<script>` tag is **loaded synchronously**, so you should put it at the bottom of your HTML. DAP has an [outstanding bug affecting asynchronous usage](https://github.com/digital-analytics-program/gov-wide-code/pull/28). This bug should be fixed in a future version of the DAP -- in which case, at that time you may want to update your tag again to add the `async` attribute.
 
 
 ## 18F team standards for API analytics
