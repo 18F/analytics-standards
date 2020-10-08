@@ -57,11 +57,25 @@ For more information about DAP, visit their [site](https://www.digitalgov.gov/se
 
 The Digital Analytics Program provides [secure, central hosting](https://www.digitalgov.gov/2015/08/14/secure-central-hosting-for-the-digital-analytics-program/) for its JavaScript snippet. 
 
-Place the following tag **in the `<head>`, preferably right before the closing `</head>` tag**:
+To add the DAP snippet:
+
+* Copy the code below
+* Replace `<<agency>>` and `<<subagency>>` with the appropriate agency and subagency codes as in the examples below
+* Place it immediately before the closing `</head>` tag
 
 ```html
-<script async src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"
-id="_fed_an_ua_tag"></script>
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=<<agency>>&subagency=<<subagency>>"></script>
+```
+Example with one subagency:
+
+```html
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=TTS"></script>
+```
+Example with two subagencies:
+
+```html
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA&subagency=18F,TTS"></script>
+
 ```
 
 
