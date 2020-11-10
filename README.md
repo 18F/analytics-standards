@@ -1,16 +1,14 @@
-This project memorializes the standards that 18F sets for itself for implementing various forms of analytics— namely website  but also API. Every project that has a digital presence will integrate appropriate analytics to better learn what our users need and want. This follows well-established best practices and equips the team to better deliver great product.
+This project memorializes the standards that 18F sets for itself for implementing website analytics. Every project that has a digital presence will integrate appropriate analytics to better learn what our users need and want. This follows well-established best practices and equips the team to better deliver great products.
 
-Access to analytics data should be widely available to teammates, partners, and the public. There are countless use cases where a fellow 18F team member can benefit from easy access to a project's website analytics and very few reasons to limit that access. We are better able to serve our agency partners when they have ready access to robust analytics for their project.
+Access to analytics data should be widely available to teammates, partners, and the public. There are countless use cases where a fellow 18F team member can benefit from easy access to a project's website analytics and very few reasons to limit that access. We are better able to serve agency partners when they have ready access to robust analytics for their project.
 
-## 18F team standards for analytics
+## TL;DR 
 
-Webpages should integrate both the 18F Google Analytics (GA) as well as the Digital Analytics Program (DAP).
+For any new website that we build, be sure to add the 18F account snippet and the DAP snippet to all pages.  They are:  
 
-Every 18F team member should be given read/collaborate access to the 18F GA account in the first two weeks on the job.  At the same time, they should be informed of the process for gaining access to the DAP and GSA's GA account.
+[Insert code]
 
-Once analytics has been set up, it's recommended to share read/collaborate access with the agency partners working on a project with you.  Even if they do not express interest, it's better to enable them so there's no excuse for the conversation.
-
-Separately, 18F projects that build APIs should integrate the `api.data.gov` service to track how developers use their web service.
+[Insert clarifying directions]
 
 ## 18F snippet standards for website analytics
 
@@ -79,12 +77,19 @@ Example with two subagencies:
 ```
 
 
-## 18F team standards for API analytics
+## Other considerations
 
-Where website analytics measures visitor traffic on a website, API analytics [measure how developers use a web service](https://pages.18f.gov/API-All-the-X/pages/api_analytics/).  18F manages a light but powerful tool to accomplish this task: [api.data.gov](https://api.data.gov/).
+### Sharing access to the data 
 
-Each 18F project that builds an API should ensure it's tracking how the API is being used.  The easiest means to do this is by [integrating the api.data.gov service](http://api.data.gov/about/#how-to-participate).
+Any TTSer should have access to the Google Analytics of all of our websites and to the Digital Analytics Program.  If anyone doesn't yet, they can ask in #analytics for access anytime.  
 
-This ensures that system owners and stakeholders can monitor how the web service is being used. It also provides further functionality.  Api.data.gov additionally provides the ability to offer API keys, set different rate limits, and to block abusive users.  By integrating api.data.gov, the project not only gains its direct benefits but also gains the benefits of 18F further dogfooding its own work.
+It's strongly recommended to share read/collaborate access with any agency partners who may be working on a project with you.  Even if they do not express interest, it's better to proactively grant them access so that they will have it later if they need it.  
 
-To learn how to integrate api.data.gov into your project's API, ask in the #wg-api channel in Slack or email `api.data.gov@gsa.gov`.  Integration is fast and easy, but, for everyone's convenience, it's better to begin this conversation during the planning and pre-production stages.
+### Take the web analytics playbook to heart 
+
+The Digital Analytics Program partnered with Digital.gov to create the [Web Analytics Playbook](https://digital.gov/guides/web-analytics-playbook/).  Every project should review it and take it to heart.  
+
+### API analytics 
+
+Separately, 18F projects that build APIs should integrate the `api.data.gov` service to track how developers use their web service, per the [GSA API Standards](https://github.com/GSA/api-standards). For any questions or to get help with this, ask in #api-data-gov or email `api.data.gov@gsa.gov`.  
+
